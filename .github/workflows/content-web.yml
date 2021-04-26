@@ -19,7 +19,7 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 env:
   imageRepository: 'content-web'
-  resourceGroupName: 'Fabmedicalrg'
+  resourceGroupName: 'fabmedicalrg-wbw'
   containerRegistryName: 'fabmedicalwbw'
   containerRegistry: 'fabmedicalwbw.azurecr.io'
   dockerfilePath: './content-web'
